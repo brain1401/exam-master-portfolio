@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy" : "pnpm build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "pnpm gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.455.0",
